@@ -6,7 +6,13 @@ describe("index.js", () => {
   it("divide divides 2000 by 100", () => {
     let a = 2000
     let b = 100
-    expect(divide(a,b)).to.equal(a/b)
+    expect(divide(a,b)).to.equal(20)
+  })
+
+  it("divide divides 40 by 10", () => {
+    let a = 40
+    let b = 10
+    expect(divide(a,b)).to.equal(4)
   })
 
   it("has an arrow function called square", () => {
